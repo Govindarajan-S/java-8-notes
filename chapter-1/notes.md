@@ -17,3 +17,10 @@ A value is assigned to a reference in one of two ways:
 - Reference types can be assigned null, which means they do not currently refer to an object. Primitive types will give you a compiler error if you attempt to assign them null.
 - Reference types can be used to call methods when they do not point to null. Primitives do not have methods declared on them.
 - Primitive types are in lowercase letters. Reference types are in UpperCamelCase letters.
+
+# Default Initialization Values for Instance Variables
+![Default Initialization Values](default-initialization-values.png "Default Initialization Values")
+
+# Elements Order in Class
+![Elements Order](elements-order-in-class.png "Elements Order in Class")
+- Also, a file can contain any number of classes but atmost one class can be public. If public class is present then file name should match class name.

@@ -1,6 +1,6 @@
 # Order of Operater Precedence
-![Order of Operator Precedence](operator-precedence1.png "Order of Operator Precedence")
-![Order of Operator Precedence](operator-precedence2.png "Order of Operator Precedence")
+![Order of Operator Precedence](operator-precedence-1.png "Order of Operator Precedence")
+![Order of Operator Precedence](operator-precedence-2.png "Order of Operator Precedence")
 
 # Modulus Operator
 - For a given divisor y (+ve or -ve) and positive dividend, the result produced is between 0 and (y - 1).
@@ -15,4 +15,4 @@
 # Java Unary Operator
 ![Java Unary Operator](unary-operator.png "Unary Operator")
 - In Java 1 and true are not related in any way, just as 0 and false are not related.
-- Hence we cannot apply logical operator on numberic value and numeric operator on logical values.
+- Hence we cannot apply logical operator on numeric value and numeric operator on logical values.

@@ -16,3 +16,24 @@
 ![Java Unary Operator](unary-operator.png "Unary Operator")
 - In Java 1 and true are not related in any way, just as 0 and false are not related.
 - Hence we cannot apply logical operator on numeric value and numeric operator on logical values.
+
+# Compound Assignment Operators
+- The left-hand side of the compound operator can only be applied to a variable that is already defined and cannot be used to declare a new variable. Otherwise it would fail to compile.
+- Compound operators are useful for more than just shorthand—they can also save us from having to explicitly cast a value.
+```
+long x = 10;
+int y = 3;
+y = y * x; // Does not compile
+y *= x; // Does compile
+```
+
+# Relational Operator - instanceof
+![Relational Operator - instanceof](instanceof-operator.png "Relational Operator - instanceof")
+
+# Logical Operators
+![Logical Operators](logical-operators.png "Logical Operators")
+
+# Short Circuit Operators
+- The short-circuit operators are nearly identical to the logical operators, & and |, respectively, except that the right-hand side of the expression may never be evaluated if the final result can be determined by the left-hand side of the expression.
+- A most common use case for short-circuit operators is used for null checking an object before performing an operation.
+

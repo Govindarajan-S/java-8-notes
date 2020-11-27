@@ -37,3 +37,12 @@ y *= x; // Does compile
 - The short-circuit operators are nearly identical to the logical operators, & and |, respectively, except that the right-hand side of the expression may never be evaluated if the final result can be determined by the left-hand side of the expression.
 - A most common use case for short-circuit operators is used for null checking an object before performing an operation.
 
+# Equality Operators
+- Equality operators are used in one of three different scenarios:
+	- Comparing two numeric data type. If the numeric values are of different type then the values are automatically promoted.
+	- Comparing two boolean values.
+	- Comparing two objects, including null as well.
+
+# Switch Statement
+![Switch Data Type](switch-datatypes.png "Data Types supported by switch")
+- The values in each case statement must be compile-time constant values of the same data type as the switch value. This means you can use only literals, enum constants, or final constant variables of the same data type. By final constant, we mean that the variable must be marked with the final modifier and initialized with a literal value in the same expression in which it is declared.

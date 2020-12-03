@@ -46,3 +46,6 @@ y *= x; // Does compile
 # Switch Statement
 ![Switch Data Type](switch-datatypes.png "Data Types supported by switch")
 - The values in each case statement must be compile-time constant values of the same data type as the switch value. This means you can use only literals, enum constants, or final constant variables of the same data type. By final constant, we mean that the variable must be marked with the final modifier and initialized with a literal value in the same expression in which it is declared.
+
+# Advanced Control Flow Usage
+![Advanced Control Flow Usage](advanced-control-flow.png "Advanced Control Flow Usage")
